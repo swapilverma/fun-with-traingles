@@ -25,12 +25,17 @@ nav {
     display: block;
 }
 
-.navbar{
+.navbar {
     text-decoration: none;
     padding: 0.3rem;
     font-weight: bold;
 }
-.navbar:hover{
+
+.navbar:hover {
+    text-decoration: underline;
+}
+
+.navbar-active{
     text-decoration: underline;
 }
 
@@ -71,8 +76,9 @@ button:hover {
     cursor: pointer;
 }
 
-#output{
+#output {
     padding-top: 1.5rem;
     font-weight: bold;
     font-size: large;
 }
+
