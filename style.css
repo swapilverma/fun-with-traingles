@@ -2,10 +2,9 @@
 
 * {
     font-family: 'Montserrat', sans-serif;
-    box-sizing: border-box;
 }
 
-body{
+body {
     background-color: whitesmoke;
 }
 
@@ -13,47 +12,66 @@ body{
     text-align: center;
     width: 100%;
     margin: auto;
-    /* background-color: #157592; */
     padding: 1rem;
-    max-width: 550px;
+    max-width: 800px;
 }
 
-nav{
+nav {
     padding: 2rem;
-    text-decoration: none;
-    background-color:rgb(135, 209, 209);
+    background-color: rgb(135, 209, 209);
     margin: 0rem;
     border-radius: 0.3rem;
     display: block;
-    
-
 }
 
-h1{
+.navbar{
+    text-decoration: none;
+    padding: 0.3rem;
+    font-weight: bold;
+}
+.navbar:hover{
+    text-decoration: underline;
+}
+
+h1 {
     text-align: center;
     display: block;
-    color: rgb(15, 168, 10);
+    /* color: rgb(15, 168, 10); */
 }
 
 
 button {
-    padding: 0.5rem;
     font-weight: bold;
-    width: 40%;
+    font-size: large;
+    width: 50%;
     border: 2px solid;
     display: block;
     text-align: center;
-    margin: 2rem auto auto auto;
-    background-color: wheat;
-}
-label{
-    display: block;
-    text-align: center;
-    padding: 0.5rem;
+    margin: 2.5rem auto auto auto;
+    background-color: rgb(135, 209, 209);
+    height: 3rem;
 }
 
+label {
+    position: relative;
+    text-align: left;
+    margin-left: 25%;
+    display: block;
+    padding: 1.5rem 0 0.2rem 0;
+}
+
+input {
+    width: 50%;
+    height: 2rem;
+}
 
 
 button:hover {
     cursor: pointer;
+}
+
+#output{
+    padding-top: 1.5rem;
+    font-weight: bold;
+    font-size: large;
 }
