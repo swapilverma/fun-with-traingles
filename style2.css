@@ -8,13 +8,29 @@ body {
     background-color: black;
     color: white;
 }
-
+/* 
 .container {
     text-align: center;
     width: 100%;
     margin: auto;
     padding: 1rem;
     max-width: 800px;
+} */
+
+.ques-container{
+    width: 80%;
+    text-align: left;
+    margin:auto ;
+    border: 2px solid;
+    border-color: rgb(135, 209, 209);
+    margin-bottom: 0.5rem;
+    padding: 2rem;
+}
+
+.options{
+    display: inline;
+    width: 40%;
+    padding: 2rem;
 }
 
 nav {
@@ -40,7 +56,6 @@ h1 {
     /* color: rgb(15, 168, 10); */
 }
 
-
 button {
     font-weight: bold;
     font-size: large;
@@ -56,23 +71,14 @@ button {
 label {
     position: relative;
     text-align: left;
-    margin-left: 25%;
+    /* margin-left: 25%; */
     display: block;
     padding: 1.5rem 0 0.2rem 0;
-}
-
-input {
-    width: 50%;
-    height: 2rem;
-}
-
-
-button:hover {
-    cursor: pointer;
 }
 
 #output{
     padding-top: 1.5rem;
     font-weight: bold;
     font-size: large;
+    text-align: center;
 }
