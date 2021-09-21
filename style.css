@@ -5,8 +5,8 @@
 }
 
 body {
-    background-color: black;
-    color: white;
+    background-color: beige;
+    color: black;
 }
 
 .container {
@@ -80,5 +80,23 @@ button:hover {
     padding-top: 1.5rem;
     font-weight: bold;
     font-size: large;
+}
+
+
+footer{
+    text-align: center;
+    padding-top: 3rem;
+}
+.list{
+    list-style: none;
+    
+}
+
+.inline-list{
+    display: inline-block;
+    padding: 0.5rem;
+    
+    
+
 }
 

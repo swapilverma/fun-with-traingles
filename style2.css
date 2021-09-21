@@ -5,8 +5,8 @@
 }
 
 body {
-    background-color: black;
-    color: white;
+    background-color: beige;
+    color: black;
 }
 
 .container {
@@ -88,3 +88,21 @@ label {
     font-size: large;
     text-align: center;
 }
+
+footer{
+    text-align: center;
+    padding-top: 3rem;
+}
+.list{
+    list-style: none;
+    
+}
+
+.inline-list{
+    display: inline-block;
+    padding: 0.5rem;
+    
+    
+
+}
+
