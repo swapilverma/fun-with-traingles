@@ -7,7 +7,7 @@ function calculateArea() {
     const height = Number(sides[1].value)
     const area = 0.5 * base * height
 
-    outputResult.innerText = "The Area is " + area + "cm^2"
+    outputResult.innerText = "The Area is " + area + " cm^2"
 }
 
 areaBtn.addEventListener("click", calculateArea);
