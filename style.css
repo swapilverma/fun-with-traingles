@@ -26,9 +26,11 @@ nav {
 }
 
 .navbar {
+    box-sizing: border-box;
     text-decoration: none;
     padding: 0.3rem;
     font-weight: bold;
+    color: black;
 }
 
 .navbar:hover {
